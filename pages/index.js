@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <Container>
       <div>
-          {/* {resolvedTheme !== theme ? `${theme} (${resolvedTheme})` : theme} */}
         <Button
           type="checkbox"
           onClick={handleClick}
@@ -22,10 +21,8 @@ export default function Home() {
           {resolvedTheme === "light" ? "dark" : "light"} Mode
         </Button>
       </div>
-        <ComingSoon />
-        <CodeTime />
-          {/* {resolvedTheme === "🌞" ? "🌜" : "🌞"} */}
-
+        {/* <ComingSoon /> */}
+        <CodeTime />                           
     </Container>
   )
 }
