@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import ComingSoon from './ComingSoon'
 import CodeTime from '../components/CodeTime'
+import Landing from './Landing'
 
 export default function Home() {
   const { theme, resolvedTheme, setTheme } = useTheme()
@@ -22,7 +23,8 @@ export default function Home() {
         </Button>
       </div>
         {/* <ComingSoon /> */}
-        <CodeTime />                           
+        <Landing />
+        {/* <CodeTime />*/}
     </Container>
   )
 }
